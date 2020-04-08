@@ -1,0 +1,5 @@
+При выполнени возникла ошибка <class 'ZeroDivisionError'> 
+ division by zero 
+ <traceback object at 0x0000012C66EFC6C0> При выполнени возникла ошибка <class 'ZeroDivisionError'> 
+ division by zero 
+ <traceback object at 0x000001D689285200> 

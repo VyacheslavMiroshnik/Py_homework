@@ -10,7 +10,7 @@ class Dish():
                      self.cook_book[dish_name] = []
                      ingr_count = int(dish_file.readline().strip())
                      while ingr_count:
-                         ingr_info = dish_file.readline().split('|')
+                         ingr_info = dish_file.readline().strip().split('|')
                          self.cook_book[dish_name].append({"ingradient_name": ingr_info[0], "quantity" : float(ingr_info[1]), "measure" : ingr_info[2]})
                          ingr_count -= 1
                      dish_file.readline()     
